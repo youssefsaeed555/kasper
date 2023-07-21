@@ -865,6 +865,11 @@ header .form i {
   width: 120px;
   padding: 10px 20px;
 }
+@media (max-width: 768px) {
+  .subscribe .container form [type="submit"] {
+    padding: 10px 0;
+  }
+}
 .subscribe form ::placeholder {
   color: white;
 }
